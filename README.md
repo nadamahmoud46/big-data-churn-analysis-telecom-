@@ -1,3 +1,4 @@
+
 # 📊 Telecom Customer Churn Analysis on AWS
 
 End-to-end Big Data Pipeline | Real-Time + Batch | Power BI Dashboards
@@ -17,11 +18,16 @@ Telecom companies struggle with:
 **This project builds a full big-data analytics pipeline on AWS to unify telecom data, process it at scale, and deliver actionable churn insights.**
 
 ## 🏗️ Architecture Overview
+
+<img width="986" height="553" alt="Project architecture" src="https://github.com/user-attachments/assets/cd96052f-c55d-44ba-8c84-e1a7298185cc" />
+
 ### Data Ingestion
 
-**Apache NiFi** → Batch ingestion (customer info, plans, usage history)
+| Source           | Technology      | Description                                |
+| ---------------- | --------------- | ------------------------------------------ |
+| Batch Data       | **Apache NiFi** | Customer info, plans, usage history        |
+| Streaming Events | **Kafka**       | Real-time events, top-ups, support tickets |
 
-**Apache Kafka** → Streaming ingestion (real-time events, top-ups, support tickets)
 
 ### Data Lake
 
@@ -48,6 +54,26 @@ Telecom companies struggle with:
 **Amazon Athena** → Interactive SQL analytics on S3
 
 **Power BI** → Dashboards, insights, churn trends, and KPI visualizations
+
+### 📦 Dataset
+
+**📌 Total dataset size: over 2,000,000 telecom records**
+**📌 Includes both batch and real-time data streams.**
+
+
+### Dataset domains:
+
+- Customer profiles
+
+- Recharge / top-up transactions
+
+- Usage history (voice, SMS, data)
+
+- Billing & revenue
+
+- Support / escalation tickets
+
+- Real-time events (Kafka streams)
 
 ## 📌 Key KPIs
 ### Revenue Metrics
