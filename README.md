@@ -1,4 +1,5 @@
 
+
 # 📊 Telecom Customer Churn Analysis on AWS
 
 End-to-end Big Data Pipeline | Real-Time + Batch | Power BI Dashboards
@@ -47,7 +48,12 @@ Telecom companies struggle with:
 
 5-KPI computation
 
+<img width="1927" height="1281" alt="Untitled" src="https://github.com/user-attachments/assets/77379ba9-b3e8-44db-8b96-376174f59f32" />
+
 **AWS Glue Workflows** for orchestration and automation
+
+<img width="848" height="255" alt="orchestration" src="https://github.com/user-attachments/assets/a87a3552-f76b-4c0d-a5ca-4cdf9da4f41d" />
+
 
 ### Analytics Layer
 
