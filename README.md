@@ -12,6 +12,8 @@ Telecom companies struggle with:
 
 3-Missing or incomplete KPIs needed for strategic decisions
 
+**➡️ The pipeline processed more than 2 million customer and usage records, combining batch datasets with real-time streaming events.**
+
 **This project builds a full big-data analytics pipeline on AWS to unify telecom data, process it at scale, and deliver actionable churn insights.**
 
 ## 🏗️ Architecture Overview
